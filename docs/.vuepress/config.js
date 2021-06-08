@@ -109,18 +109,18 @@ module.exports = {
         lastUpdated: config["ar"].lastUpdated,
         nav: [
           {
-            text: 'توثيق',
+            text: 'Documentation',
             link: '/ar/documentation/#welcome',
           },
           {
-            text: 'جيثب',
+            text: 'Github',
             link: 'https://github.com/AngeloCore/discord-buttons'
           },
         ],
         sidebar: {
           '/ar/documentation/': [
             {
-              title: 'جيثب',
+              title: 'Getting Started',
               collapsable: false,
               children: [
                 './getting-started/installation',

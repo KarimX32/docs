@@ -1,18 +1,18 @@
-# التركيب
-قبل تثبيت حزمة npm ، يجب أن نتأكد أولاً من وجود discord.js v12. للقيام بذلك ، يمكننا فتح موجه الأوامر حيث تم تثبيت node_modules الخاصة بك وكتابة:
-قائمة 
+# Installation
+
+Before installing the npm package, we must first make sure that we have discord.js v12 +. To do this we can open a command prompt where your node_modules are installed and type:
 
 ```sh
-$ npm discord.js
+$ npm list discord.js
 ```
 
-يجب أن يبدو الإخراج مثل هذا:
+The output should look something like this:
 
 ```sh
-"- discord.js@12.5.3
+`-- discord.js@12.5.3
 ```
 
-بمجرد التأكد من أن لديك إصدارًا متوافقًا ، يمكنك الآن الانتقال إلى الخطوة التالية. لتثبيت حزمة npm ، افتح موجه الأوامر واكتب:
+Once you have confirmed that you have a compatible version you can now move onto the next step. To install the npm package, open the command prompt and type:
 
 ```sh
 $ npm install discord-buttons
