@@ -12,9 +12,23 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
+  "husky": {
+    "hooks": {
+        "commit-msg": "commitlint -E  HUSKY_GIT_PARAMS"
+     }
+  },
+  "commitlint": {
+    "extends": ["@commitlint/config-conventional"],
+    "rules": {
+        "subject-case": [2, "never", ["start-case", "pascal-case"]]
+     }
+  },
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "@xiaopanda/vuepress-plugin-code-copy": "^1.0.3",
+    "husky": "^6.0.0",
     "vuepress": "^1.8.2"
   },
   "dependencies": {
