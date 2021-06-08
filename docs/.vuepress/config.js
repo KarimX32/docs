@@ -1,4 +1,5 @@
 const { description, name } = require('../../package')
+const config = require("./assets/locales/locales.json");
 // const sideBar = require(../sidebar.js)
 
 
@@ -11,13 +12,13 @@ module.exports = {
   locales: {
     '/': {
       lang: 'en',
-      title: name,
-      description: description
+      title: config["en-US"].title,
+      description: config["en-US"].description
     },
     '/ar/': {
       lang: 'ar',
-      title: name,
-      description: 'أزرار Discord.js'
+      title: config["ar"].title,
+      description: config["ar"].description
     }
   },
   head: [
@@ -103,8 +104,8 @@ module.exports = {
       },
       '/ar/': {
         label: 'Arabic',
-        selectText: 'Languages',
-        lastUpdated: true,
+        selectText: config["ar"].selectText,
+        lastUpdated: config["ar"].lastUpdated,
         nav: [
           {
             text: 'توثيق',

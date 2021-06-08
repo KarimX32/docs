@@ -1,0 +1,15 @@
+{
+    "en-US": {
+        "title": "discord-buttons",
+        "description": "Discord.js buttons",
+        "lastUpdated": "Last Updated",
+        "selectText": "Languages"
+    },
+
+    "ar": {
+        "title": "discord-buttons",
+        "description": "أزرار Discord.js",
+        "lastUpdated": "التحديث الاخير",
+        "selectText": "اللغات"
+    }
+}
