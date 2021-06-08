@@ -11,5 +11,33 @@
         "description": "أزرار Discord.js",
         "lastUpdated": "التحديث الاخير",
         "selectText": "اللغات"
+    },
+
+    "fr-FR": {
+        "title": "",
+        "description": "",
+        "lastUpdated": "",
+        "selectText": ""
+    },
+
+    "bg-BG": {
+        "title": "",
+        "description": "",
+        "lastUpdated": "",
+        "selectText": ""
+    },
+
+    "it-IT": {
+        "title": "",
+        "description": "",
+        "lastUpdated": "",
+        "selectText": ""
+    },
+
+    "fa-IR": {
+        "title": "",
+        "description": "",
+        "lastUpdated": "",
+        "selectText": ""
     }
 }
