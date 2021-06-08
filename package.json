@@ -21,6 +21,6 @@
     "vue-click-outside": "^1.1.0",
     "vue-discord-message": "^5.0.3",
     "vuepress-plugin-clean-urls": "^1.1.2",
-    "vuepress-theme-jac": "^1.2.0"
+    "vuepress-theme-jac": "^1.4.0"
   }
 }
