@@ -71,7 +71,8 @@ module.exports = {
               children: [
                 './sending-buttons/channel-send',
                 './sending-buttons/message-edit',
-                './sending-buttons/message-reply'
+                './sending-buttons/message-reply',
+                './sending-buttons/remove-buttons'
               ]
             },
             {
@@ -132,7 +133,8 @@ module.exports = {
               children: [
                 './sending-buttons/channel-send',
                 './sending-buttons/message-edit',
-                './sending-buttons/message-reply'
+                './sending-buttons/message-reply',
+                './sending-buttons/remove-buttons'
               ]
             },
             {
