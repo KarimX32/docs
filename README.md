@@ -218,4 +218,4 @@ Then you will need to add the language to the theme configuration
     }
     ```
 
-    Make sure all the links are pointing to the correct pages!
+Make sure all the links are pointing to the correct pages!
