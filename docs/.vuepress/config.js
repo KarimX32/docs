@@ -1,5 +1,4 @@
-const { description } = require('../../package')
-const { name } = require('../../package')
+const { description, name } = require('../../package')
 // const sideBar = require(../sidebar.js)
 
 
@@ -102,68 +101,68 @@ module.exports = {
           ],
         }
       },
+      '/ar/': {
+        label: 'Arabic',
+        selectText: 'Languages',
+        lastUpdated: true,
+        nav: [
+          {
+            text: 'Documentation',
+            link: '/documentation/#welcome',
+          },
+          {
+            text: 'Github',
+            link: 'https://github.com/AngeloCore/discord-buttons'
+          },
+        ],
+        sidebar: {
+          '/ar/': [
+            {
+              title: 'Getting Started',
+              collapsable: false,
+              children: [
+                '/documentation/getting-started/installation',
+                './getting-started/setup',
+              ]
+            },
+            {
+              title: 'Sending Buttons',
+              collapsable: false,
+              children: [
+                './sending-buttons/channel-send',
+                './sending-buttons/message-edit',
+                './sending-buttons/message-reply'
+              ]
+            },
+            {
+              title: 'Contructors',
+              collapsable: false,
+              children: [
+                './constructors/message-button',
+                './constructors/message-action-row',
+              ]
+            },
+            {
+              title: 'Events/Collectors',
+              collapsable: false,
+              children: [
+                './events/clickButton',
+                './events/createButtonCollector',
+                './events/awaitButtons',
+              ]
+            },
+            {
+              title: 'Miscellaneous',
+              collapsable: false,
+              children: [
+                './miscellaneous/examples',
+                './miscellaneous/faq',
+              ]
+            },
+          ],
+        }
+      },
     },
-  },
-  '/ar/': {
-    label: 'Arabic',
-    selectText: 'Languages',
-    lastUpdated: true,
-    nav: [
-      {
-        text: 'Documentation',
-        link: 'ar/documentation/#welcome',
-      },
-      {
-        text: 'Github',
-        link: 'https://github.com/AngeloCore/discord-buttons'
-      },
-    ],
-    sidebar: {
-      'ar/documentation/': [
-        {
-          title: 'Getting Started',
-          collapsable: false,
-          children: [
-            './getting-started/installation',
-            './getting-started/setup',
-          ]
-        },
-        {
-          title: 'Sending Buttons',
-          collapsable: false,
-          children: [
-            './sending-buttons/channel-send',
-            './sending-buttons/message-edit',
-            './sending-buttons/message-reply'
-          ]
-        },
-        {
-          title: 'Contructors',
-          collapsable: false,
-          children: [
-            './constructors/message-button',
-            './constructors/message-action-row',
-          ]
-        },
-        {
-          title: 'Events/Collectors',
-          collapsable: false,
-          children: [
-            './events/clickButton',
-            './events/createButtonCollector',
-            './events/awaitButtons',
-          ]
-        },
-        {
-          title: 'Miscellaneous',
-          collapsable: false,
-          children: [
-            './miscellaneous/examples',
-            './miscellaneous/faq',
-          ]
-        },
-      ],
-    }
   },
 
   theme: 'jac',
@@ -178,3 +177,4 @@ module.exports = {
     '@vuepress/plugin-medium-zoom',
   ]
 }
+
