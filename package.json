@@ -14,14 +14,23 @@
   },
   "husky": {
     "hooks": {
-        "commit-msg": "commitlint -E  HUSKY_GIT_PARAMS"
-     }
+      "commit-msg": "commitlint -E  HUSKY_GIT_PARAMS"
+    }
   },
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"],
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
     "rules": {
-        "subject-case": [2, "never", ["start-case", "pascal-case"]]
-     }
+      "subject-case": [
+        2,
+        "never",
+        [
+          "start-case",
+          "pascal-case"
+        ]
+      ]
+    }
   },
   "license": "MIT",
   "devDependencies": {
