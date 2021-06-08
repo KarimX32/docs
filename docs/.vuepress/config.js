@@ -116,12 +116,12 @@ module.exports = {
           },
         ],
         sidebar: {
-          '/ar/': [
+          '/documentation': [
             {
               title: 'Getting Started',
               collapsable: false,
               children: [
-                '/documentation/getting-started/installation',
+                './getting-started/installation',
                 './getting-started/setup',
               ]
             },
