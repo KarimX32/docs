@@ -1,4 +1,4 @@
-# Setup
+# يثبت
 
 To use [discord-buttons](https://npmjs.com/discord-buttons), you must put this in your main file (usually index.js) after your discord.js [Client](https://discord.js.org/#/docs/main/stable/class/Client)
 

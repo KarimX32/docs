@@ -107,18 +107,18 @@ module.exports = {
         lastUpdated: true,
         nav: [
           {
-            text: 'Documentation',
-            link: '/documentation/#welcome',
+            text: 'توثيق',
+            link: '/ar/documentation/#welcome',
           },
           {
-            text: 'Github',
+            text: 'جيثب',
             link: 'https://github.com/AngeloCore/discord-buttons'
           },
         ],
         sidebar: {
-          '/documentation': [
+          '/ar/documentation/': [
             {
-              title: 'Getting Started',
+              title: 'جيثب',
               collapsable: false,
               children: [
                 './getting-started/installation',
