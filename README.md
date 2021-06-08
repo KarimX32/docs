@@ -3,9 +3,10 @@
 </div>
 
 
-## How to translate? 
+### How to translate? 
 
 Firstly you'll need to copy the `examplelang` folder which is located in: /docs/. Rename this folder to the corresponding language for example, es or es-ES.
+
 Secondly you'll need to navigate to config.js which is located in: /docs/.vuepress/. Inside this file you will need to fill in the locales section:
 
 ```js
