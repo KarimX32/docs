@@ -1,14 +1,10 @@
 const { description, name } = require('../../package')
 const config = require("./assets/locales/locales.json");
-// const sideBar = require(../sidebar.js)
+ // const sidebar = require('./sidebar.js')
 
 
 
 module.exports = {
-
-  title: name,
-  description: description,
-
   locales: {
     '/': {
       lang: 'en',
@@ -35,7 +31,11 @@ module.exports = {
     ['meta', { property: 'og:image', content: 'https://i.imgur.com/Je6Rl0E.png' }],
   ],
 
+  theme: 'jac',
   themeConfig: {
+    jac: {
+      logo: 'JacLogo',
+    },
     smoothScroll: true,
     searchPlaceholder: 'Search',
     repo: '',
@@ -168,7 +168,6 @@ module.exports = {
     },
   },
 
-  theme: 'jac',
 
   markdown: {
     lineNumbers: true,
