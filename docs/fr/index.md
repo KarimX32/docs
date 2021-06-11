@@ -1,9 +1,10 @@
 ---
 home: true
-heroText: null
-tagline: null
-actionText: 
-actionLink: 
+meta:
+- property: og:title
+  content: Commencer
+- property: og:description
+  content: Boutons Discord.js
 ---
 
 
