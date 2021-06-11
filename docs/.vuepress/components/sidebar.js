@@ -1,141 +1,141 @@
 const sidebar = {
-    '/ar/documentation/': [
-        {
-            title: 'Getting Started',
-            collapsable: false,
-            children: [
-              './getting-started/installation',
-              './getting-started/setup',
-            ]
-          },
-          {
-            title: 'Sending Buttons',
-            collapsable: false,
-            children: [
-              './sending-buttons/channel-send',
-              './sending-buttons/message-edit',
-              './sending-buttons/message-reply',
-              './sending-buttons/remove-buttons'
-            ]
-          },
-          {
-            title: 'Contructors',
-            collapsable: false,
-            children: [
-              './constructors/message-button',
-              './constructors/message-action-row',
-            ]
-          },
-          {
-            title: 'Events/Collectors',
-            collapsable: false,
-            children: [
-              './events/clickButton',
-              './events/createButtonCollector',
-              './events/awaitButtons',
-            ]
-          },
-          {
-            title: 'Miscellaneous',
-            collapsable: false,
-            children: [
-              './miscellaneous/examples',
-              './miscellaneous/faq',
-            ]
-          },
-    ],
-    '/documentation/': [
-        {
-            title: 'Getting Started',
-            collapsable: false,
-            children: [
-              './getting-started/installation',
-              './getting-started/setup',
-            ]
-          },
-          {
-            title: 'Sending Buttons',
-            collapsable: false,
-            children: [
-              './sending-buttons/channel-send',
-              './sending-buttons/message-edit',
-              './sending-buttons/message-reply',
-              './sending-buttons/remove-buttons'
-            ]
-          },
-          {
-            title: 'Contructors',
-            collapsable: false,
-            children: [
-              './constructors/message-button',
-              './constructors/message-action-row',
-            ]
-          },
-          {
-            title: 'Events/Collectors',
-            collapsable: false,
-            children: [
-              './events/clickButton',
-              './events/createButtonCollector',
-              './events/awaitButtons',
-            ]
-          },
-          {
-            title: 'Miscellaneous',
-            collapsable: false,
-            children: [
-              './miscellaneous/examples',
-              './miscellaneous/faq',
-            ]
-          },
+  '/ar/documentation/': [
+    {
+      title: 'Getting Started',
+      collapsable: false,
+      children: [
+        './getting-started/installation',
+        './getting-started/setup',
+      ]
+    },
+    {
+      title: 'Sending Buttons',
+      collapsable: false,
+      children: [
+        './sending-buttons/channel-send',
+        './sending-buttons/message-edit',
+        './sending-buttons/message-reply',
+        './sending-buttons/remove-buttons'
+      ]
+    },
+    {
+      title: 'Contructors',
+      collapsable: false,
+      children: [
+        './constructors/message-button',
+        './constructors/message-action-row',
+      ]
+    },
+    {
+      title: 'Events/Collectors',
+      collapsable: false,
+      children: [
+        './events/clickButton',
+        './events/createButtonCollector',
+        './events/awaitButtons',
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      children: [
+        './miscellaneous/examples',
+        './miscellaneous/faq',
+      ]
+    },
+  ],
+  '/documentation/': [
+    {
+      title: 'Getting Started',
+      collapsable: false,
+      children: [
+        './getting-started/installation',
+        './getting-started/setup',
+      ]
+    },
+    {
+      title: 'Sending Buttons',
+      collapsable: false,
+      children: [
+        './sending-buttons/channel-send',
+        './sending-buttons/message-edit',
+        './sending-buttons/message-reply',
+        './sending-buttons/remove-buttons'
+      ]
+    },
+    {
+      title: 'Contructors',
+      collapsable: false,
+      children: [
+        './constructors/message-button',
+        './constructors/message-action-row',
+      ]
+    },
+    {
+      title: 'Events/Collectors',
+      collapsable: false,
+      children: [
+        './events/clickButton',
+        './events/createButtonCollector',
+        './events/awaitButtons',
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      children: [
+        './miscellaneous/examples',
+        './miscellaneous/faq',
+      ]
+    },
 
-    ],
-    '/fr//documentation/': [
-        {
-            title: 'Getting Started',
-            collapsable: false,
-            children: [
-              './getting-started/installation',
-              './getting-started/setup',
-            ]
-          },
-          {
-            title: 'Sending Buttons',
-            collapsable: false,
-            children: [
-              './sending-buttons/channel-send',
-              './sending-buttons/message-edit',
-              './sending-buttons/message-reply',
-              './sending-buttons/remove-buttons'
-            ]
-          },
-          {
-            title: 'Contructors',
-            collapsable: false,
-            children: [
-              './constructors/message-button',
-              './constructors/message-action-row',
-            ]
-          },
-          {
-            title: 'Events/Collectors',
-            collapsable: false,
-            children: [
-              './events/clickButton',
-              './events/createButtonCollector',
-              './events/awaitButtons',
-            ]
-          },
-          {
-            title: 'Miscellaneous',
-            collapsable: false,
-            children: [
-              './miscellaneous/examples',
-              './miscellaneous/faq',
-            ]
-          },
+  ],
+  '/fr/documentation/': [
+    {
+      title: 'Getting Started',
+      collapsable: false,
+      children: [
+        './getting-started/installation',
+        './getting-started/setup',
+      ]
+    },
+    {
+      title: 'Sending Buttons',
+      collapsable: false,
+      children: [
+        './sending-buttons/channel-send',
+        './sending-buttons/message-edit',
+        './sending-buttons/message-reply',
+        './sending-buttons/remove-buttons'
+      ]
+    },
+    {
+      title: 'Contructors',
+      collapsable: false,
+      children: [
+        './constructors/message-button',
+        './constructors/message-action-row',
+      ]
+    },
+    {
+      title: 'Events/Collectors',
+      collapsable: false,
+      children: [
+        './events/clickButton',
+        './events/createButtonCollector',
+        './events/awaitButtons',
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      children: [
+        './miscellaneous/examples',
+        './miscellaneous/faq',
+      ]
+    },
 
-    ],
+  ],
 };
 
 module.exports = sidebar;
