@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: 
-tagline: &nbsp;
+heroText: null
+tagline: null
 actionText: 
 actionLink: 
 ---

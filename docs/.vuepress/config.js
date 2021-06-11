@@ -1,6 +1,6 @@
 const { description, name } = require('../../package')
 const config = require("./assets/locales/locales.json");
- // const sidebar = require('./sidebar.js')
+const sidebar = require("./components/sidebar.js")
 
 
 
@@ -15,6 +15,11 @@ module.exports = {
       lang: 'ar',
       title: config["ar"].title,
       description: config["ar"].description
+    },
+    '/fr/': {
+      lang: 'fr',
+      title: config["fr-FR"].title,
+      description: config["fr-FR"].description
     }
   },
   head: [
@@ -55,53 +60,7 @@ module.exports = {
             link: 'https://github.com/AngeloCore/discord-buttons'
           },
         ],
-        sidebar: {
-          '/documentation/': [
-            {
-              title: 'Getting Started',
-              collapsable: false,
-              children: [
-                './getting-started/installation',
-                './getting-started/setup',
-              ]
-            },
-            {
-              title: 'Sending Buttons',
-              collapsable: false,
-              children: [
-                './sending-buttons/channel-send',
-                './sending-buttons/message-edit',
-                './sending-buttons/message-reply',
-                './sending-buttons/remove-buttons'
-              ]
-            },
-            {
-              title: 'Contructors',
-              collapsable: false,
-              children: [
-                './constructors/message-button',
-                './constructors/message-action-row',
-              ]
-            },
-            {
-              title: 'Events/Collectors',
-              collapsable: false,
-              children: [
-                './events/clickButton',
-                './events/createButtonCollector',
-                './events/awaitButtons',
-              ]
-            },
-            {
-              title: 'Miscellaneous',
-              collapsable: false,
-              children: [
-                './miscellaneous/examples',
-                './miscellaneous/faq',
-              ]
-            },
-          ],
-        }
+        sidebar,
       },
       '/ar/': {
         label: 'Arabic',
@@ -117,53 +76,23 @@ module.exports = {
             link: 'https://github.com/AngeloCore/discord-buttons'
           },
         ],
-        sidebar: {
-          '/ar/documentation/': [
-            {
-              title: 'Getting Started',
-              collapsable: false,
-              children: [
-                './getting-started/installation',
-                './getting-started/setup',
-              ]
-            },
-            {
-              title: 'Sending Buttons',
-              collapsable: false,
-              children: [
-                './sending-buttons/channel-send',
-                './sending-buttons/message-edit',
-                './sending-buttons/message-reply',
-                './sending-buttons/remove-buttons'
-              ]
-            },
-            {
-              title: 'Contructors',
-              collapsable: false,
-              children: [
-                './constructors/message-button',
-                './constructors/message-action-row',
-              ]
-            },
-            {
-              title: 'Events/Collectors',
-              collapsable: false,
-              children: [
-                './events/clickButton',
-                './events/createButtonCollector',
-                './events/awaitButtons',
-              ]
-            },
-            {
-              title: 'Miscellaneous',
-              collapsable: false,
-              children: [
-                './miscellaneous/examples',
-                './miscellaneous/faq',
-              ]
-            },
-          ],
-        }
+        sidebar
+      },
+      '/fr/': {
+        label: 'French',
+        selectText: config["fr-FR"].selectText,
+        lastUpdated: config["fr-FR"].lastUpdated,
+        nav: [
+          {
+            text: 'Documentation',
+            link: '/fr/documentation/#welcome',
+          },
+          {
+            text: 'Github',
+            link: 'https://github.com/AngeloCore/discord-buttons'
+          },
+        ],
+        sidebar
       },
     },
   },

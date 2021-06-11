@@ -19,7 +19,7 @@ Then, you can use [disbut.MessageButton](../documentation/constructors/message-b
 Look no further! Here is how you can do it:
 
 ```js
-import require('discord-buttons')(client); in your main file after your client, and on the command file put:
+import require('discord-buttons')(client);
 const { MessageButton, MessageActionRow } = require('discord-buttons');
 ```
 or:
