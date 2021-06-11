@@ -17,7 +17,7 @@ jobs:
     - name: Deploy mybells.github.io/master
       uses: peaceiris/actions-gh-pages@v2
       env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TARGET_REPO: discord-buttons/docs-multilingual #Can create a new mybells.github.io warehouse and publish it to the master
         PUBLISH_BRANCH: master
         PUBLISH_DIR: docs/.vuepress/dist
