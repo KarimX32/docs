@@ -1,5 +1,9 @@
 ---
 home: true
+heroText: null
+tagline: null
+actionText:
+actionLink:
 ---
 
 <div align="center">
