@@ -4,6 +4,9 @@ heroText: null
 tagline: null
 actionText:
 actionLink:
+meta:
+- name: discord-buttons
+  content: Boutons Discord.js
 ---
 
 <div align="center">
