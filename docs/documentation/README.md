@@ -1,4 +1,4 @@
-# Welcome everyone!
+# Welcome!
 
 **What is discord-buttons?**
 
