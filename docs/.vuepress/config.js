@@ -25,8 +25,8 @@ module.exports = {
   head: [
     ['meta', { charset: 'utf-8' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
-    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "https://i.imgur.com/m57ng0P.png" }],
-    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "https://i.imgur.com/0Dfw71u.png" }],
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "32x32.png" }],
+    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "16x16.png" }],
     ['meta', { name: 'theme-color', content: '#2196f3' }],
     ['meta', { property: 'og:title', content: 'Get Started' }],
     ['meta', { property: 'og:description', content: 'Discord.js buttons' }],
