@@ -10,8 +10,7 @@
   "repository": "https://github.com/AngeloCore/discord-buttons/discord-buttons",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "gh-pages -d docs/.vuepress/dist"
+    "build": "vuepress build docs"
   },
   "license": "MIT",
   "homepage": "https://discord-buttons.github.io/docs",
@@ -22,7 +21,6 @@
     "vuepress": "^1.8.2"
   },
   "dependencies": {
-    "gh-pages": "^3.2.0",
     "vue-click-outside": "^1.1.0",
     "vue-discord-message": "^5.0.3",
     "vuepress-plugin-clean-urls": "^1.1.2",
