@@ -5,7 +5,9 @@ tagline: null
 actionText:
 actionLink:
 meta:
-- name: discord-buttons
+- property: og:title
+  content: Commencer
+- property: og:description
   content: Boutons Discord.js
 ---
 
