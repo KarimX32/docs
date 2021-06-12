@@ -105,8 +105,7 @@ module.exports = {
   plugins: [
     '@xiaopanda/vuepress-plugin-code-copy',
     '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
-    ['vuepress-plugin-clean-urls', { normalSuffix: '', notFoundPath: '/404.html', }, ]
+    '@vuepress/plugin-medium-zoom'
   ]
 }
 
