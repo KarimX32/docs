@@ -1,27 +1,10 @@
 const { description, name } = require('../../package')
-const config = require("./assets/locales/locales.json");
 const sidebar = require("./components/sidebar.js")
 
 
 
 module.exports = {
-  locales: {
-    '/': {
-      lang: 'en',
-      title: config["en-US"].title,
-      description: config["en-US"].description
-    },
-    '/ar/': {
-      lang: 'ar',
-      title: config["ar"].title,
-      description: config["ar"].description
-    },
-    '/fr/': {
-      lang: 'fr',
-      title: config["fr-FR"].title,
-      description: config["fr-FR"].description
-    }
-  },
+  
   head: [
     ['meta', { charset: 'utf-8' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
@@ -45,56 +28,17 @@ module.exports = {
     searchPlaceholder: 'Search',
     repo: '',
     docsDir: '',
-    locales: {
-      '/': {
-        label: 'English',
-        selectText: 'Languages',
-        lastUpdated: true,
-        nav: [
-          {
-            text: 'Documentation',
-            link: '/documentation/#welcome',
-          },
-          {
-            text: 'Github',
-            link: 'https://github.com/AngeloCore/discord-buttons'
-          },
-        ],
-        sidebar,
+    nav: [
+      {
+        text: 'Documentation',
+        link: '/documentation/#welcome',
       },
-      '/ar/': {
-        label: 'Arabic',
-        selectText: config["ar"].selectText,
-        lastUpdated: config["ar"].lastUpdated,
-        nav: [
-          {
-            text: 'Documentation',
-            link: '/ar/documentation/#welcome',
-          },
-          {
-            text: 'Github',
-            link: 'https://github.com/AngeloCore/discord-buttons'
-          },
-        ],
-        sidebar
+      {
+        text: 'Github',
+        link: 'https://github.com/AngeloCore/discord-buttons'
       },
-      '/fr/': {
-        label: 'French',
-        selectText: config["fr-FR"].selectText,
-        lastUpdated: config["fr-FR"].lastUpdated,
-        nav: [
-          {
-            text: 'Documentation',
-            link: '/fr/documentation/#welcome',
-          },
-          {
-            text: 'Github',
-            link: 'https://github.com/AngeloCore/discord-buttons'
-          },
-        ],
-        sidebar
-      },
-    },
+    ],
+    sidebar
   },
 
 
