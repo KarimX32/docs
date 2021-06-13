@@ -38,7 +38,7 @@ module.exports = {
         link: 'https://github.com/AngeloCore/discord-buttons'
       },
     ],
-    sidebar {
+    sidebar: {
     '/documentation/': [
     {
       title: 'Getting Started',
