@@ -43,6 +43,5 @@ const sidebar = {
         './miscellaneous/faq',
       ]
     },
+  ]
 };
-
-module.exports = sidebar;
