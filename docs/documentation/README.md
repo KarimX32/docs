@@ -1,3 +1,7 @@
+---
+prev: false
+next: ./getting-started/installation
+---
 # Welcome!
 
 **What is discord-buttons?**
@@ -21,3 +25,4 @@ discord-buttons is a [discord.js](https://discord.js.org/#/) add-on that interac
 <img src="https://i.imgur.com/qbcHg68.gif"></img>
 
 </div>
+
