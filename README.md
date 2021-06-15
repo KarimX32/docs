@@ -3,7 +3,7 @@
 </div>
 
 
-### How to translate? 
+### How to translate?   
 
 Firstly you'll need to copy the `examplelang` folder which is located in: /docs/. Rename this folder to the corresponding language for example, `es` or `es-ES`.
 
