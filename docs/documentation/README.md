@@ -1,3 +1,7 @@
+---
+prev: false
+next: ./getting-started/installation
+---
 # Welcome!
 
 **What is discord-buttons?**
