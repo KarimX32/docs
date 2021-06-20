@@ -13,6 +13,6 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: discord-buttons/docs
         TARGET_BRANCH: gh-pages
-        BUILD_SCRIPT: yarn && yarn build
+        BUILD_SCRIPT: npm build
         BUILD_DIR: docs/.vuepress/dist/
-        COMMIT_MESSAGE:  Auto deploy by the Vuepress-deploy
+        COMMIT_MESSAGE: Auto deploy by the Vuepress-deploy
