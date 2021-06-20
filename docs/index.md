@@ -2,7 +2,7 @@
 home: true
 heroText: null
 tagline: null
-actionText:
+actionText: null
 actionLink:
 ---
 
