@@ -23,6 +23,6 @@
   "dependencies": {
     "vue-click-outside": "^1.1.0",
     "vue-discord-message": "^5.0.3",
-    "vuepress-theme-jac": "^1.4.0"
+    "vuepress-theme-jac": "^1.5.0"
   }
 }
