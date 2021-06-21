@@ -1,4 +1,4 @@
-name: A-TO-B:CUSTOM_BRANCH
+name: deploy
 on: [push]
 jobs:
   build-and-deploy:
