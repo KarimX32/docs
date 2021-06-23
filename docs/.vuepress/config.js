@@ -57,6 +57,7 @@ module.exports = {
           title: 'Classes',
           children: [
             './classes/message',
+            './classes/messageButton'
           ]
         },
         {
