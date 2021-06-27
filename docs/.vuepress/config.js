@@ -57,7 +57,8 @@ module.exports = {
           title: 'Classes',
           children: [
             './classes/message',
-            './classes/messagebutton'
+            './classes/messagebutton',
+            './classes/messageactionrow'
           ]
         },
         {
