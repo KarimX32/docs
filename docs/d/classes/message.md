@@ -1,5 +1,5 @@
 # Message
-extends Message
+extends [Message](https://discord.js.org/#/docs/main/stable/class/Message)
 
 <br>
 <hr>
@@ -10,8 +10,10 @@ extends Message
 
 #### .components
 The message components of the message
+
 Returns: [BaseMessageComponent]()
 
+<hr>
 
 ### METHODS
 
