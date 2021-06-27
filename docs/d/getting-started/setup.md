@@ -17,12 +17,12 @@ Then, you can use [disbut.MessageButton](../constructors/message-button) and [di
 
 <hr />
 
-### But i use a command handler!!
+### But I use a command handler!
 
 Look no further! Here is how you can do it:
 
 ```js
-import require('discord-buttons')(client); in your main file after your client, and on the command file put:
+import require('discord-buttons')(client); //in your main file after your client, and on the command file put:
 const { MessageButton, MessageActionRow } = require('discord-buttons');
 ```
 
