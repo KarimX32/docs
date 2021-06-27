@@ -78,18 +78,10 @@ Returns: [Channel](https://discord.js.org/#/docs/main/stable/class/Channel)
 <hr>
 
 
-#### .reply
-The reply object of this button.
-
-Returns: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[Reply](/d/classes/buttonreply.html)>
-
-<hr>
-
-
 #### .clicker
 The user who clicked this button.
 
-Returns: [User](https://discord.js.org/#/docs/main/stable/class/User)
+Returns: Object<[User](https://discord.js.org/#/docs/main/stable/class/User), [GuildMember](https://discord.js.org/#/docs/main/stable/class/GuldMember), fetch: Promise\<boolean>>
 
 <hr>
 
@@ -97,7 +89,7 @@ Returns: [User](https://discord.js.org/#/docs/main/stable/class/User)
 #### .webhook
 The webhook of this button interaction.
 
-Returns: [WebhookClient](https://discord.js.org/#/docs/main/stable/class/WebhookClient)
+Returns: [WebhookClient](/d/classes/webhookclient.html)
 
 <hr>
 
@@ -105,4 +97,4 @@ Returns: [WebhookClient](https://discord.js.org/#/docs/main/stable/class/Webhook
 #### .reply
 Reply for the button
 
-Returns: [InteractionReply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+Returns: [InteractionReply](/d/managers/interactionreply.html)

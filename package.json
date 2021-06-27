@@ -1,13 +1,13 @@
 {
   "name": "discord-buttons",
   "version": "0.0.1",
-  "description": "Discord.js buttons",
+  "description": "docs",
   "main": "index.js",
   "authors": {
     "name": "jac",
     "email": "jacleighp@gmail.com"
   },
-  "repository": "https://github.com/AngeloCore/discord-buttons/discord-buttons",
+  "repository": "https://github.com/discord-buttons/discord-buttons",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"

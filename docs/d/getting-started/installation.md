@@ -9,7 +9,7 @@ npm list discord.js
 The output should look something like this:
 
 ```sh
-`-- discord.js@12.5.3
+discord.js@12.5.3
 ```
 
 Once you have confirmed that you have a compatible version you can now move onto the next step. To install the npm package, open the command prompt and type:
