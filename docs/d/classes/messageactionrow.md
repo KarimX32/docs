@@ -1,7 +1,6 @@
 # MessageActionRow
 extends [BaseMessageComponent]()
 
-<br>
 <hr>
 
 ### METHODS
