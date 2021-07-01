@@ -75,6 +75,8 @@ Sets the url for this button. [MessageButton.style](#setstyle-style) __must be__
 Returns: [MessageButton](#)
 
 
+### .setStyle(style)
+Sets the style of this button.
 
 <body>
 
@@ -101,3 +103,4 @@ Returns: [MessageButton](#)
 </table>
 
 </body>
+Returns: [MessageButton](#)
