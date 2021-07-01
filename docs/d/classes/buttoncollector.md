@@ -21,6 +21,13 @@ Creates a button collector.
     <th style="text-align: center; border: 1px solid #dddddd">DESCRIPTION</th>
 
   </tr>
+  
+    <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  
   <tr>
     <td style="text-align: center; border: 1px solid #dddddd">data, filter, options</td>
     <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://github.com/AngeloCore/discord-buttons/blob/dev/src/v12/Classes/ButtonCollector.js">ButtonCollector</a></td>
