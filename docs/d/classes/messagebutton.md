@@ -91,7 +91,7 @@ Returns: [MessageButton](#)
   </tr>
   <tr>
     <td style="text-align: center; border: 1px solid #dddddd">style</td>
-    <td style="text-align: center; border: 1px solid #dddddd">[MessageButtonStyle](https://example.com)</td>
+    <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://example.com">MessageButtonStyle</a></td>
     <td style="text-align: center; border: 1px solid #dddddd">-</td>
     <td style="text-align: center; border: 1px solid #dddddd">No</td>
     <td style="text-align: center; border: 1px solid #dddddd">The filter function to use</td>
