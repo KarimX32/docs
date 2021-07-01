@@ -2,9 +2,8 @@
 
 extends [Collector]()
 
-<br>
 <hr>
-
+<br>
 
 
 ### Message#createButtonCollector
@@ -43,7 +42,7 @@ Returns: [MessageActionRow](#)
 ## Methods
 
 <br>
-<hr>
+
 
 
 ### .checkEnd()
