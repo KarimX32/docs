@@ -50,7 +50,7 @@ Checks whether the collector should end, and if so, ends it.
 
 Returns: [Void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void)
 
----
+-----
 
 ### [.empty()](https://discord.js.org/#/docs/main/stable/class/ReactionCollector?scrollTo=empty)
 
