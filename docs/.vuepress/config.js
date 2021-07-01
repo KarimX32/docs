@@ -22,7 +22,7 @@ module.exports = {
     },
     smoothScroll: true,
     searchPlaceholder: 'Search',
-    repo: 'discord-buttons/docs#gh-pages',
+    repo: '',
     docsDir: '',
     nav: [
       {
