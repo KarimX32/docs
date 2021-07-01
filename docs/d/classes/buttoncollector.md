@@ -84,12 +84,6 @@ Returns: [Void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 ---
 
-### [.key(button)](https://discord.js.org/#/docs/main/stable/class/ReactionCollector?scrollTo=key)
 
-Gets the button id
-
-Returns: Button ID
-
----
 
 
