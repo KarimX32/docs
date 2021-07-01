@@ -19,14 +19,8 @@ Creates a button collector.
     <th style="text-align: center; border: 1px solid #dddddd">DEFAULT</th>
     <th style="text-align: center; border: 1px solid #dddddd" >OPTIONAL</th>
     <th style="text-align: center; border: 1px solid #dddddd">DESCRIPTION</th>
+   </tr>
 
-  </tr>
-  
-    <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-  </tr>
   
   <tr>
     <td style="text-align: center; border: 1px solid #dddddd">data, filter, options</td>
@@ -38,7 +32,7 @@ Creates a button collector.
   </tr>
   
   
-          <tr>
+        <tr>
     <td style="text-align: center; border: 1px solid #dddddd">filter</td>
     <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://discord.js.org/#/docs/main/stable/typedef/CollectorFilter">CollectorFilter</a> </td>
     <td style="text-align: center; border: 1px solid #dddddd">-</td>
