@@ -78,10 +78,8 @@ Returns: [MessageButton](#)
 ### .setStyle(style)
 Sets the style of this button.
 
+<html>
 <body>
-
-<h2>Discord Buttons</h2>
-
 <table>
   <tr>
     <th style="text-align: center; border: 1px solid #dddddd">PARAMETERS</th>
@@ -101,6 +99,7 @@ Sets the style of this button.
   </tr>
 
 </table>
-
 </body>
+</html>
+
 Returns: [MessageButton](#)
