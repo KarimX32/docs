@@ -143,7 +143,7 @@ Adds a button to the row.
 Returns: [MessageActionRow](#)
 
 
-### .addComponents([])
+### .addComponents([ ])
 
 Adds a buttons in array to the row.
 
