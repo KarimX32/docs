@@ -1,6 +1,5 @@
 # ButtonCollector
 
-# MessageButton
 extends [Collector]()
 
 <br>
