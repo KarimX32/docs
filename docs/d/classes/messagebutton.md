@@ -94,6 +94,44 @@ Sets the style of this button.
     <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://example.com">MessageButtonStyle</a></td>
     <td style="text-align: center; border: 1px solid #dddddd">-</td>
     <td style="text-align: center; border: 1px solid #dddddd">No</td>
+    <td style="text-align: center; border: 1px solid #dddddd">Adds a button to the row.</td>
+
+  </tr>
+
+</table>
+</body>
+</html>
+
+Returns: [MessageActionRow](#)
+
+
+
+
+
+----
+
+
+
+### .addComponent(Button)
+
+Adds a button to the row.
+
+<html>
+<body>
+<table>
+  <tr>
+    <th style="text-align: center; border: 1px solid #dddddd">PARAMETERS</th>
+    <th style="text-align: center; border: 1px solid #dddddd">TYPE</th>
+    <th style="text-align: center; border: 1px solid #dddddd">DEFAULT</th>
+    <th style="text-align: center; border: 1px solid #dddddd" >OPTIONAL</th>
+    <th style="text-align: center; border: 1px solid #dddddd">DESCRIPTION</th>
+
+  </tr>
+  <tr>
+    <td style="text-align: center; border: 1px solid #dddddd">style</td>
+    <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://example.com">MessageButtonStyle</a></td>
+    <td style="text-align: center; border: 1px solid #dddddd">-</td>
+    <td style="text-align: center; border: 1px solid #dddddd">No</td>
     <td style="text-align: center; border: 1px solid #dddddd">The filter function to use</td>
 
   </tr>
