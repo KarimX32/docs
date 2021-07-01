@@ -85,7 +85,7 @@ Returns: [MessageButton](#)
     <th style="text-align: center; border: 1px solid #dddddd">PARAMETERS</th>
     <th style="text-align: center; border: 1px solid #dddddd">TYPE</th>
     <th style="text-align: center; border: 1px solid #dddddd">DEFAULT</th>
-    <thstyle="text-align: center; border: 1px solid #dddddd" >OPTIONAL</th>
+    <th style="text-align: center; border: 1px solid #dddddd" >OPTIONAL</th>
     <th style="text-align: center; border: 1px solid #dddddd">DESCRIPTION</th>
 
   </tr>
