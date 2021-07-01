@@ -43,6 +43,15 @@ Creates a button collector.
   </tr>
 
   
+      <tr>
+    <td style="text-align: center; border: 1px solid #dddddd">options</td>
+    <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://discord-buttons.github.io/docs/d/classes/message.html">AwaitButtonsOptions</a></td>
+    <td style="text-align: center; border: 1px solid #dddddd">{}</td>
+    <td style="text-align: center; border: 1px solid #dddddd">Yes</td>
+    <td style="text-align: center; border: 1px solid #dddddd">Optional options to pass to the internal collector.</td>
+
+  </tr>
+  
 </table>
 </body>
 </html>
@@ -99,11 +108,4 @@ Returns: [Void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 
 
-    <tr>
-    <td style="text-align: center; border: 1px solid #dddddd">options</td>
-    <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://discord-buttons.github.io/docs/d/classes/message.html">AwaitButtonsOptions</a></td>
-    <td style="text-align: center; border: 1px solid #dddddd">{}</td>
-    <td style="text-align: center; border: 1px solid #dddddd">Yes</td>
-    <td style="text-align: center; border: 1px solid #dddddd">Optional options to pass to the internal collector.</td>
 
-  </tr>
