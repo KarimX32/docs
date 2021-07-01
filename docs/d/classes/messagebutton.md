@@ -128,11 +128,11 @@ Adds a button to the row.
 
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid #dddddd">style</td>
+    <td style="text-align: center; border: 1px solid #dddddd">button</td>
     <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://example.com">MessageButtonStyle</a></td>
     <td style="text-align: center; border: 1px solid #dddddd">-</td>
     <td style="text-align: center; border: 1px solid #dddddd">No</td>
-    <td style="text-align: center; border: 1px solid #dddddd">The filter function to use</td>
+    <td style="text-align: center; border: 1px solid #dddddd">Adds a button to the row.</td>
 
   </tr>
 
