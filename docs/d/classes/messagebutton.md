@@ -129,7 +129,7 @@ Adds a button to the row.
   </tr>
   <tr>
     <td style="text-align: center; border: 1px solid #dddddd">button</td>
-    <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://example.com">MessageButtonRow</a></td>
+    <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://github.com/AngeloCore/discord-buttons/blob/dev/src/v12/Constants.js">MessageComponentTypes</a></td>
     <td style="text-align: center; border: 1px solid #dddddd">-</td>
     <td style="text-align: center; border: 1px solid #dddddd">No</td>
     <td style="text-align: center; border: 1px solid #dddddd">Adds a button to the row.</td>
@@ -160,7 +160,7 @@ Adds a buttons in array to the row.
   </tr>
   <tr>
     <td style="text-align: center; border: 1px solid #dddddd">array</td>
-    <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://example.com">MessageButtonRow</a></td>
+    <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://github.com/AngeloCore/discord-buttons/blob/dev/src/v12/Constants.js">MessageComponentTypes</a></td>
     <td style="text-align: center; border: 1px solid #dddddd">-</td>
     <td style="text-align: center; border: 1px solid #dddddd">Yes</td>
     <td style="text-align: center; border: 1px solid #dddddd">Adds multime components (Array).</td>
