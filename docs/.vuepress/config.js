@@ -1,5 +1,6 @@
 module.exports = {
   title: "discord-buttons",
+  base: "/",
   head: [
     ['meta', { charset: 'utf-8' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
@@ -13,7 +14,7 @@ module.exports = {
     ['meta', { property: 'og:locale', content: 'en' }],
     ['meta', { property: 'og:image', content: 'https://i.imgur.com/Je6Rl0E.png' }],
   ],
-
+ 
   theme: 'jac',
   themeConfig: {
     jac: {
@@ -21,7 +22,7 @@ module.exports = {
     },
     smoothScroll: true,
     searchPlaceholder: 'Search',
-    repo: '',
+    repo: 'discord-buttons/docs#gh-pages',
     docsDir: '',
     nav: [
       {
