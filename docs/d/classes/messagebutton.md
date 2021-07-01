@@ -140,4 +140,4 @@ Adds a button to the row.
 </body>
 </html>
 
-Returns: [MessageButton](#)
+Returns: [MessageActionRow](#)
