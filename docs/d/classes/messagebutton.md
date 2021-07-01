@@ -129,7 +129,7 @@ Adds a button to the row.
   </tr>
   <tr>
     <td style="text-align: center; border: 1px solid #dddddd">button</td>
-    <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://example.com">MessageButtonStyle</a></td>
+    <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://example.com">MessageButtonRow</a></td>
     <td style="text-align: center; border: 1px solid #dddddd">-</td>
     <td style="text-align: center; border: 1px solid #dddddd">No</td>
     <td style="text-align: center; border: 1px solid #dddddd">Adds a button to the row.</td>
@@ -141,3 +141,35 @@ Adds a button to the row.
 </html>
 
 Returns: [MessageActionRow](#)
+
+
+### .addComponents([])
+
+Adds a buttons in array to the row.
+
+<html>
+<body>
+<table>
+  <tr>
+    <th style="text-align: center; border: 1px solid #dddddd">PARAMETERS</th>
+    <th style="text-align: center; border: 1px solid #dddddd">TYPE</th>
+    <th style="text-align: center; border: 1px solid #dddddd">DEFAULT</th>
+    <th style="text-align: center; border: 1px solid #dddddd" >OPTIONAL</th>
+    <th style="text-align: center; border: 1px solid #dddddd">DESCRIPTION</th>
+
+  </tr>
+  <tr>
+    <td style="text-align: center; border: 1px solid #dddddd">array</td>
+    <td style="text-align: center; border: 1px solid #dddddd"> <a href="https://example.com">MessageButtonRow</a></td>
+    <td style="text-align: center; border: 1px solid #dddddd">-</td>
+    <td style="text-align: center; border: 1px solid #dddddd">Yes</td>
+    <td style="text-align: center; border: 1px solid #dddddd">Adds multime components (Array).</td>
+
+  </tr>
+
+</table>
+</body>
+</html>
+
+Returns: [MessageActionRow](#)
+
