@@ -76,48 +76,28 @@ Returns: [MessageButton](#)
 
 
 
-<html>
-<head>
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-  text-align: center;
-}
-
-
-</style>
-</head>
 <body>
 
 <h2>Discord Buttons</h2>
 
 <table>
   <tr>
-    <th>PARAMETERS</th>
-    <th>TYPE</th>
-    <th>DEFAULT</th>
-    <th>OPTIONAL</th>
-    <th>DESCRIPTION</th>
+    <th style="text-align: center; border: 1px solid #dddddd">PARAMETERS</th>
+    <th style="text-align: center; border: 1px solid #dddddd">TYPE</th>
+    <th style="text-align: center; border: 1px solid #dddddd">DEFAULT</th>
+    <thstyle="text-align: center; border: 1px solid #dddddd" >OPTIONAL</th>
+    <th style="text-align: center; border: 1px solid #dddddd">DESCRIPTION</th>
 
   </tr>
   <tr>
-    <td>style</td>
-    <td>MessageButtonStyle</td>
-    <td>-</td>
-    <td>No</td>
-    <td>The filter function to use</td>
+    <td style="text-align: center; border: 1px solid #dddddd">style</td>
+    <td style="text-align: center; border: 1px solid #dddddd">MessageButtonStyle</td>
+    <td style="text-align: center; border: 1px solid #dddddd">-</td>
+    <td style="text-align: center; border: 1px solid #dddddd">No</td>
+    <td style="text-align: center; border: 1px solid #dddddd">The filter function to use</td>
 
   </tr>
 
 </table>
 
 </body>
-</html>
